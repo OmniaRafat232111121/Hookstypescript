@@ -1,7 +1,9 @@
-import UseStateComponent from"./components/UseStateComponent"
+
+import './App.css';
+
 function App() {
   return (
-    <div>
+    <div className="App">
      <UseStateComponent/>
     </div>
   );

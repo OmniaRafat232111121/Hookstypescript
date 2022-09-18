@@ -7,7 +7,7 @@ return(
         <div>
             <button onClick={()=>arrSet([
                 ...arr,
-                arr.length+3
+                arr.length+
             ])}>Add to array</button>
           <pre>{JSON.stringify(arr)}</pre>
         </div>

@@ -1,13 +1,13 @@
 import { useState } from "react";
 
-function UseStateComponent(){
-const [arr,arrSet]=useState<number[]>([1,2]);
+export const UseStateComponent: JSX.IntrinsicAttributes(){
+const [arr,arrSet]=useState<number[]|null>([])
 return(
     <div>
         <div>
             <button onClick={()=>arrSet([
                 ...arr,
-                arr.length+3
+                arr.leng
             ])}>Add to array</button>
           <pre>{JSON.stringify(arr)}</pre>
         </div>
@@ -15,4 +15,3 @@ return(
 
 );
 }
-export default UseStateComponent;

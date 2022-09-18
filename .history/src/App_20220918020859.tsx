@@ -1,4 +1,4 @@
-import UseStateComponent from"./components/UseStateComponent"
+import {UseStateComponent} from"
 function App() {
   return (
     <div>

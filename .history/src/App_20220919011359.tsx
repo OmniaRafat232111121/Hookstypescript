@@ -6,7 +6,7 @@ function App() {
     <div>
      <UseStateComponent/>
      <UseEffectComponent/>
-      <UseContextComponent/>
+      <UseContextComponent
     </div>
   );
 }

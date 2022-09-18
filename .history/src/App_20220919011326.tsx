@@ -1,4 +1,3 @@
-import UseContextComponent from "./components/UseContextComponent";
 import UseEffectComponent from "./components/UseEffectComponent";
 import UseStateComponent from"./components/UseStateComponent"
 function App() {
@@ -6,7 +5,7 @@ function App() {
     <div>
      <UseStateComponent/>
      <UseEffectComponent/>
-      <UseContextComponent/>
+      <Use
     </div>
   );
 }

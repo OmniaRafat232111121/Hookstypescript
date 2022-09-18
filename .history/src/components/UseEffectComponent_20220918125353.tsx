@@ -5,7 +5,6 @@ function UseEffectComponent(){
     const timer=window.setInterval(()=>{
             valSet((v)=>v+1);
         },1000);
-        //cleanup
         return()=>window.clearInterval(timer);
     })
     return(
@@ -15,10 +14,3 @@ function UseEffectComponent(){
 
 }
 export default UseEffectComponent;
-/*useeffect*/
-/*
-changing the document,fetching data
-lifecycle(component didupdate,componentdidmount,componentwillunmount)
-accept twoparameter ,if you wont provide any parameter it can update at every time
-
-*/

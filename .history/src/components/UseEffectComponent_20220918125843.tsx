@@ -19,6 +19,5 @@ export default UseEffectComponent;
 /*
 changing the document,fetching data
 lifecycle(component didupdate,componentdidmount,componentwillunmount)
-accept twoparameter ,if you wont provide any parameter it can update at every time
-
+accept twoparameter ,if you wont provide any parameter it can update at 
 */

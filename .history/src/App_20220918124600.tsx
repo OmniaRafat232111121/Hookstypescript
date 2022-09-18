@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
      <UseStateComponent/>
-     <UseEffectComponent/>
+     <UseEffectComponent
     </div>
   );
 }

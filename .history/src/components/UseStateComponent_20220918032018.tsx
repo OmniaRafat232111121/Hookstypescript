@@ -22,10 +22,10 @@ return(
           <pre>{JSON.stringify(arr)}</pre>
         </div>
 
-        {/* <div>
+        <div>
             <button onClick={()=>nameSet("omnia")}>Add to array</button>
           <pre>{JSON.stringify(name)}</pre>
-        </div> */}
+        </div>
 
         <div>
         <p>Clicks: {clicks}</p>

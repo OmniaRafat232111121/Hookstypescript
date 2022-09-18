@@ -36,7 +36,7 @@ return(
 
         <div>
             <form onSubmit={handleSubmit}>
-            <input type="text" placeholder="name" value={name} onChange={onNameChange} />
+            <input type="text" placeholder="name" value=" onChange={onNameChange} />
                 <button > submit</button>
             </form>
         </div>

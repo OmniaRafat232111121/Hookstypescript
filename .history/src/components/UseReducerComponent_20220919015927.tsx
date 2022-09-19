@@ -36,8 +36,8 @@ return(
           }
         >
           Increment
-        </button>{" "} {" "} {" "}
-        | {" "} {" "}
+        </button>{" "}
+        |
         <button
           onClick={() =>
             dispatch({
@@ -51,5 +51,9 @@ return(
       </div>
     </div>
   );
+}
+
+
+
 }
 export default UseReducerComponent;

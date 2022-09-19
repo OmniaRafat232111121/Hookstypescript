@@ -24,32 +24,8 @@ switch(action.type){
 function UseReducerComponent(){
 const [state,dispatch]=useReducer(countReducer,initialState)
 return(
-<div>
-      <div>{state.counter}</div>
-      <div>
-        <button
-          onClick={() =>
-            dispatch({
-              type: "increment",
-              payload: 10,
-            })
-          }
-        >
-          Increment
-        </button>{" "} {" "} {" "}
-        | {" "} {" "}
-        <button
-          onClick={() =>
-            dispatch({
-              type: "decrement",
-              payload: 5,
-            })
-          }
-        >
-          Decrement
-        </button>
-      </div>
-    </div>
-  );
+
+)
+
 }
 export default UseReducerComponent;

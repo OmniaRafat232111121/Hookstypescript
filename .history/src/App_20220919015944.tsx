@@ -1,7 +1,6 @@
 import UseContextComponent from "./components/UseContextComponent";
 import UseEffectComponent from "./components/UseEffectComponent";
 import UseReducerComponent from "./components/UseReducerComponent";
-import UseRefComponent from "./components/UseRefComponen";
 import UseStateComponent from"./components/UseStateComponent"
 function App() {
   return (
@@ -9,8 +8,7 @@ function App() {
      <UseStateComponent/>
      <UseEffectComponent/>
       <UseContextComponent/>
-      <UseReducerComponent/>
-      <UseRefComponent/>
+      <UseReducerComponent
     </div>
   );
 }

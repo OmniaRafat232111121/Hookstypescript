@@ -10,7 +10,7 @@ function App() {
      <UseEffectComponent/>
       <UseContextComponent/>
       <UseReducerComponent/>
-      <UseRefComponent/>
+      <UseRefComponent
     </div>
   );
 }

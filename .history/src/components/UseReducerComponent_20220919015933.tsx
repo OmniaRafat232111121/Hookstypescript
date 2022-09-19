@@ -36,8 +36,8 @@ return(
           }
         >
           Increment
-        </button>{" "} {" "} {" "}
-        | {" "} {" "}
+        </button>{" "}
+        |
         <button
           onClick={() =>
             dispatch({

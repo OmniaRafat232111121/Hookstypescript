@@ -1,4 +1,3 @@
-import CustomHookComponent from "./components/CustomHookCOmponent";
 import UseContextComponent from "./components/UseContextComponent";
 import UseEffectComponent from "./components/UseEffectComponent";
 import UseReducerComponent from "./components/UseReducerComponent";
@@ -12,7 +11,7 @@ function App() {
       <UseContextComponent/>
       <UseReducerComponent/>
       <UseRefComponent/>
-      <CustomHookComponent/>
+      <Cu
     </div>
   );
 }

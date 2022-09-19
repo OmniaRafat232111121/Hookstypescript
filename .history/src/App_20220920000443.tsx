@@ -12,7 +12,7 @@ function App() {
       <UseContextComponent/>
       <UseReducerComponent/>
       <UseRefComponent/>
-      <CustomHookComponent/>
+      <CustomHookComponent
     </div>
   );
 }
